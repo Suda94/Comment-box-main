@@ -47,7 +47,7 @@ function myFunction() {
 
 
 
-//character limiation & warning color
+//character limitation & warning color
 const countCharacters = () => {
   let numOfEnteredChars = textArea.value.length;
   let count = x - numOfEnteredChars;
