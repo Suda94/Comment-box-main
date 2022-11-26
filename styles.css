@@ -37,8 +37,10 @@ body {
   max-width: 500px;
   min-width: 300px;
   margin: 0 auto;
+  padding: 1.5rem;
   display: flexbox;
-  border: 1px solid rgb(131, 131, 131);
+  border: 1px groove rgb(255, 248, 248);
+  background-color: rgb(78, 80, 87);
 }
 
 #charCount {
@@ -62,6 +64,7 @@ body {
   border-color: rgb(0, 0, 0);
   border: 1px solid #010102;
   background-color: #c9c4c4;
+  padding: 20px;
   color: #000000;
 }
 
@@ -118,7 +121,6 @@ input[type="submit"] {
   padding: 17px 27px;
   margin: 1em auto;
   height: 2em;
-  font-size: 1.1rem;
   background-color: #1e1ef5;
   border-color: rgb(55, 15, 15);
   border-radius: 10rem;
@@ -127,6 +129,9 @@ input[type="submit"] {
 }
 .submit-button {
   border-radius: 5rem;
+  font-size: 20px;
+  font-weight: bold;
+  color: blue, black, yellow;
 }
 .submit-button:hover {
   background-color: #20b9b9;
