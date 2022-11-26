@@ -4,6 +4,8 @@ let characterCount = document.getElementById("charCount");
 let warning = document.getElementById("warning");
 const x = 140;
 
+
+// function created to check the following
 function myFunction() {
   let name = document.getElementById("name").value;
   let comment = document.getElementById("comment").value;
@@ -73,8 +75,9 @@ const countCharacters = () => {
   }
 };
 
-
+//listen or wait for the user input on the following variable that link with following:
 textArea.addEventListener("input", countCharacters);
+
 
 // grab the submit by the id and add eventlistener to for click on the submit button. 
 const submit = document.getElementById("submit");
